@@ -1,0 +1,125 @@
+$username="Munu";
+$Pass=2333;
+
+
+if ($username=="Munu"){
+	echo "Log in success";
+}
+
+else {
+	echo "Log in unsucessful";
+}
+
+if ($Pass=2333) {
+	echo "Log in success";
+}
+
+else {
+	echo "Log in unsucessful";
+}
+
+
+
+
+
+
+$day='Fri';
+
+switch ($day) {
+	case 'sun':
+			echo "this day is sunday";
+			break;
+			case 'Fri':
+				echo "this day is fri day";
+				break;
+				case 'mon':
+				echo "this day is mon day";
+					break;
+		break;
+	
+	default:
+		echo 'No day exists';
+		break;
+}
+
+
+echo "<br>";
+
+$year=0;
+
+while ($year <=20) {
+	echo "Years: $year <br>";
+	$year+=3;
+}
+
+echo "<br>";
+
+$number=0;
+
+do {
+	echo "shawal <br>";
+	$number++;
+} while ($number<=10);
+
+echo "<br>";
+
+$username=="shawal";
+$pass=1234;
+
+if ($username="shawal") {
+	echo "log in success";
+}
+elseif ($pass=1234) {
+	echo "log in success";
+}
+
+else{
+	echo "unseccessful";
+}
+
+echo "<br>";
+
+
+
+$stu= 0;
+
+for ($i=0; $i <20 ; $i++) { 
+	echo "munu <br>";
+}
+
+
+echo "<br>";
+
+
+$stuname=["shawal,koka,sikder,shahi"];
+
+for ($i=0; $i <10 ; $i++) { 
+	echo "i love <br>";
+}
+
+for ($i=1; $i <10 ; $i++) { 
+	echo "$i<br>";
+}
+for ($i=0; $i <count($stuname) ; $i++) { 
+	echo $stuname[$i];
+}
+
+
+echo "<br>";
+
+
+
+
+$friends = array(array('Name' => 'Tisu','email'=>'tshjhdhhdh@gmail.com', 'Reg no'=>12345 ),array('Name' => 'ovi','email'=>'jfflkgjjg@gmail.com','Reg no'=> 54544664 ), array('Name'=> 'jilan','email'=>'djdjsdjs@gmail.com','Reg no'=>56675 ),array('Name'=>'Arifa','email'=>'hdhshdsdhdsd@gmail.com','Reg no'=>64564),array('Name'=>'Taspiya',"email"=>'fhftjgv@gmail.com','Reg no'=>46576576),);
+foreach ($friends as $myallfriends) {
+	foreach ($myallfriends as $key => $value) {
+		echo '$key:$value<br>';
+	}
+	
+}
+
+
+
+
+
+
